@@ -1,0 +1,10 @@
+{
+  "fileStr": "index.html",
+  "options": {
+    "width": 800,
+    "height": 600,
+    "show": false,
+    "backgroundColor": "#FED",
+    "title": "MAIN"
+  }
+}

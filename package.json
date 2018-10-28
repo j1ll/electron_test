@@ -1,0 +1,31 @@
+{
+  "name": "everything_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ";",
+    "buildbabel": "babel src -d build",
+    "crazyimg": "babel src -d build",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "electron": "^1.8.2"
+  }
+}

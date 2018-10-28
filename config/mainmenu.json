@@ -1,0 +1,79 @@
+[
+  {
+    "label": "Edit Ap",
+    "submenu": [
+      {
+        "label": "Undo",
+        "accelerator": "CmdOrCtrl+Z",
+        "role": "undo"
+      },
+      {
+        "label": "Redo",
+        "accelerator": "Shift+CmdOrCtrl+Z",
+        "role": "redo"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Submenu",
+        "submenu": [
+          {
+            "label": "item 1"
+          },
+          {
+            "label": "item 2",
+            "type": "checkbox",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "label": "Sub 2",
+        "submenu": [
+          {
+            "label": "Item 1",
+            "type": "radio",
+            "checked": false
+          },
+          {
+            "label": "Item 2",
+            "type": "radio",
+            "checked": true
+          }
+        ]
+      },
+      {
+        "label": "Cut",
+        "accelerator": "CmdOrCtrl+X",
+        "role": "cut"
+      },
+      {
+        "label": "Copy",
+        "accelerator": "CmdOrCtrl+C",
+        "role": "copy"
+      },
+      {
+        "label": "Paste",
+        "accelerator": "CmdOrCtrl+V",
+        "role": "paste"
+      },
+      {
+        "label": "Select All",
+        "accelerator": "CmdOrCtrl+A",
+        "role": "selectall"
+      }
+    ]
+  },
+  {
+    "label": "Menu 2",
+    "submenu": [
+      {
+        "label": "Another Menu item"
+      },
+      {
+        "label": "One More Menu Item"
+      }
+    ]
+  }
+]

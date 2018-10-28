@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="sendSyncMsgBtn">Ping Main Process</button>
+<p id="syncReply">Awaiting response</p>
+<button id="sendAsyncMsgBtn">Ping Main Process Async</button>
+<p id="asyncReply">Awaiting async response</p>
+<button id="selectDirBtn">Choose a directory</button>
+<textarea id="selectedItem"></textarea>
+<button id="selectFileBtn">Choose image</button>
+<button id="saveFileBtn">Save</button>
+<button id="infoDialogBtn">Info Type Dialog</button>
+<button id="errorDialogBtn">Error Type Dialog</button>
+<button id="questionDialogBtn">Question Type Dialog</button>
+<button id="noneDialogBtn">None Type Dialog</button>
+
+<button id="captureButton">Capture PNG</button>
+<div>
+We are using Node.js <script>document.write(process.versions.node)</script>,
+Chromium <script>document.write(process.versions.chrome)</script>,
+and Electron <script>document.write(process.versions.electron)</script>.
+</div>
+<script>
+  // You can also require other files to run in this process
+  require('./contextmenu.js');
+  require('./renderer.js');
+</script>
+</body>
+</html>
